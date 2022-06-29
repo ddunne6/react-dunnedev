@@ -26,4 +26,4 @@ jobs:
         run: npm ci
      
       - name: Deploy lambda function
-        run: sls deploy --function dunnedev-website
+        run: sls deploy
