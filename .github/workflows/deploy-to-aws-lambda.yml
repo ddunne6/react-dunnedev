@@ -24,6 +24,9 @@ jobs:
 
       - name: Install npm dependencies
         run: npm ci
-     
+
+      - name: Show directory
+        run: ls -la
+
       - name: Deploy lambda function
         run: sls deploy
