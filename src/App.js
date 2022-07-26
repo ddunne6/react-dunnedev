@@ -9,14 +9,9 @@ function App() {
         <p>
           Website under maintenance
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          Main site available at <a href="https://dunnedev.ie/">dunnedev.ie</a>
+        </p>
       </header>
     </div>
   );
