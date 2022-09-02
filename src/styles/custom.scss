@@ -1,0 +1,24 @@
+@import "colors";
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+$theme-colors: (
+    "info":       $spanish-blue,
+    "primary":    $pacific-blue,
+    "secondary":  $khaki-web,
+    "light":      $light-slate-gray,
+    "dark":       $oxford-blue
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
+
+.navbar-dark {
+    --#{$prefix}navbar-color: #{$khaki-web};
+    --#{$prefix}navbar-brand-color: #{$khaki-web};
+    --bs-navbar-brand-padding-y: 1rem;
+}
+
+.btn {
+    --bs-btn-border-radius: 1.5rem;
+}
