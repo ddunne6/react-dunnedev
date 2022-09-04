@@ -5,7 +5,6 @@ import Button from 'react-bootstrap/Button';
 import * as Icon from 'react-bootstrap-icons';
 
 import '../styles/hero.scss'
-import profilePhoto from '../david_bristol.jpg'
 
 function DunnedevHero() {
     return (
@@ -25,7 +24,7 @@ function DunnedevHero() {
                     <br />
                 </Col>
                 <Col>
-                    <img src={profilePhoto} className='Profile' alt=''/>
+                    <img src='/david_bristol.jpg' className='Profile' alt=''/>
                 </Col>
             </Row>
         </Container>
