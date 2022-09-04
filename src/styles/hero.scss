@@ -1,0 +1,12 @@
+@import "~bootstrap/scss/bootstrap";
+@import "colors";
+
+.Profile {
+    width: 100%;
+    border-radius: 2em
+}
+
+.Socials {
+    color: #{$spanish-blue};
+    margin-right: 0.5em;
+}

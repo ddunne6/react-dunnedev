@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 
 function DunnedevNavbar() {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar bg="dark" variant="dark" expand="lg" style={{textAlign: 'center'}}>
             <Container>
                 <Navbar.Toggle />
                 <Navbar.Collapse>

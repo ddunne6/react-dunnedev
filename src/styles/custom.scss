@@ -22,3 +22,8 @@ $theme-colors: (
 .btn {
     --bs-btn-border-radius: 1.5rem;
 }
+
+body {
+    color: #{$light-slate-gray};
+    background-color: #{$oxford-blue};
+}
