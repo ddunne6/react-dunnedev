@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import * as Icon from 'react-bootstrap-icons';
 
 import '../styles/hero.scss'
-import profilePhoto from '../david_bristol.JPG'
+import profilePhoto from '../david_bristol.jpg'
 
 function DunnedevHero() {
     return (
