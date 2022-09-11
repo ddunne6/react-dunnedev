@@ -6,6 +6,11 @@ import * as Icon from 'react-bootstrap-icons';
 
 import '../styles/hero.scss'
 
+let mySummary = `Software Engineer with a passion for coding, designing and developing complicated distributed systems. 
+Having recently graduated with a distinction for my master's degree in Computer Engineering at Trinity College Dublin, 
+I now work at Amazon Web Services (AWS) in the CloudWatch Metrics department. 
+My areas of interest include: Distributed Systems, Machine Translation Evaluation, Geospatial Data, Machine Learning and Internet Applications.`
+
 function DunnedevHero() {
     return (
         <Container id='david'>
@@ -13,7 +18,7 @@ function DunnedevHero() {
                 <Col md={7} lg={8} xl={9}>
                     <h1>&lt;Hi! I am<br />David Dunne&gt;</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus condimentum mi a eleifend. Nullam quis sem nec magna laoreet laoreet. Cras non sagittis diam. Cras ultrices sodales neque eget posuere. Vivamus congue dolor odio, ac ultricies augue malesuada vel.
+                        {mySummary}
                     </p>
                     <div>
                         <Button variant="outline-info" style={{marginRight: "1em"}}>Contact Me</Button>{' '}

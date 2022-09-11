@@ -1,0 +1,16 @@
+@import "~bootstrap/scss/bootstrap";
+@import "colors";
+
+hr {
+    background-color: #{$light-slate-gray};
+    border: 0 none;
+    color: #{$light-slate-gray};
+    height: 2px;
+    opacity: 1 !important;
+}
+
+@include media-breakpoint-up(md) {
+    .workExperience {
+        margin-top: 3em;
+    }
+}
