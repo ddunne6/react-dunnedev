@@ -3,7 +3,7 @@
 
 .aboutMeFrame {
     border: 2px solid rgb(1, 111, 185, 0.25);
-    box-shadow: 0 0 1em rgb(1, 111, 185, 0.25);
+    box-shadow: 0 0 10em rgb(1, 111, 185, 0.25);
     border-radius: 1em;
     margin-left: 1em;
     margin-right: 1em;
@@ -12,6 +12,14 @@
 
 .aboutMeContent {
     margin: 2em;
+}
+
+.Profile {
+    // width: 100%;
+    border-radius: 2em;
+    // margin-top: 0.5em;
+    box-shadow: 0 0 10em rgb(1, 111, 185, 0.25);
+    border: 2px solid rgb(1, 111, 185, 0.25);
 }
 
 @include media-breakpoint-up(lg) {
