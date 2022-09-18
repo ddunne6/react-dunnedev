@@ -17,7 +17,7 @@ function DunnedevNavbar() {
                         <Nav.Link href="#about" className='px-4'>About</Nav.Link>
                     </Nav>
                     <Nav className="justify-content-end" style={{ width: "100%" }}>
-                        <Button variant="outline-info">Contact Me</Button>{' '}
+                        <Button href="mailto:ddunne6@tcd.ie" variant="outline-info">Contact Me</Button>{' '}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

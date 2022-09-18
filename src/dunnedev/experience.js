@@ -5,6 +5,15 @@ import DunnedevExperienceCell from './experienceCell'
 
 import '../styles/experience.scss'
 
+let myEducation = `My keen interest in Computer Engineering led me to specialising in this area during the third year of my studies at Trinity College Dublin.
+As part of my Master's degree, I wrote a dissertation on the topic of Machine Translation Evaluation in which I achieved a distinction.
+`
+
+let myExperience = `
+During my time at university, I completed a Software Engineering internship at LexisNexis Risk Solutions.
+I now work at Amazon in the AWS CloudWatch Metrics department.
+`
+
 function DunnedevExperience() {
     return (
         <Container id='experience' style={{ marginTop: "1em" }}>
@@ -12,7 +21,10 @@ function DunnedevExperience() {
                 <Col md>
                     <h1 className="workExperience">My Work Experience</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius vitae elit pharetra congue. Aenean sollicitudin aliquam turpis, at gravida orci porta ut. Nulla nulla massa, ornare ac libero et, interdum rhoncus leo.
+                        {myEducation}
+                    </p>
+                    <p>
+                        {myExperience}
                     </p>
                 </Col>
                 <Col md>

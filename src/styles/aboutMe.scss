@@ -35,3 +35,9 @@
         margin-right: 6em;
     }
 }
+
+@include media-breakpoint-down(sm) {
+    .aboutMeContent {
+        margin-top: 0.5em;
+    }
+}

@@ -21,7 +21,7 @@ function DunnedevHero() {
                         {mySummary}
                     </p>
                     <div>
-                        <Button variant="outline-info" style={{marginRight: "1em"}}>Contact Me</Button>{' '}
+                        <Button variant="outline-info" href="mailto:ddunne6@tcd.ie" style={{marginRight: "1em"}}>Contact Me</Button>{' '}
                         <a href="https://www.linkedin.com/in/david-dunne-b02642195/"><Icon.Linkedin className='Socials' size={25}/></a>
                         <a href="https://www.instagram.com/dunned922/?hl=en"><Icon.Instagram className='Socials' size={25}/></a>
                         <a href="https://github.com/ddunne6"><Icon.Github className='Socials' size={25}/></a>
@@ -29,7 +29,7 @@ function DunnedevHero() {
                     <br />
                 </Col>
                 <Col>
-                    <img src='/david_bristol.jpg' className='Profile' alt=''/>
+                    <img src='/david_liverpool.jpg' className='Profile' alt=''/>
                 </Col>
             </Row>
         </Container>
