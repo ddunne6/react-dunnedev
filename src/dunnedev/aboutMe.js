@@ -11,9 +11,9 @@ function DunnedevAboutMe() {
         <div className="aboutMeFrame">
             <Container id='about' className="aboutMeContent">
                 <Row>
-                    <Col md lg={3}>
+                    {/* <Col md lg={3}>
                         <img src='/david_bristol.jpg' className='Profile' alt='' />
-                    </Col>
+                    </Col> */}
                     <Col md lg={8}>
                         <h1>About Me</h1>
                         <p>
