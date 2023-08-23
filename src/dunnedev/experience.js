@@ -28,9 +28,9 @@ function DunnedevExperience() {
                     </p>
                 </Col>
                 <Col md>
-                    <DunnedevExperienceCell num="01/" jobTitle="Software Development Engineer" company="Amazon Web Services" start="June 2022" end="Present" />
-                    <DunnedevExperienceCell num="02/" jobTitle="Software Engineer Intern" company="LexisNexis Risk Solutions" start="February 2021" end="August 2021" />
-                    <DunnedevExperienceCell num="03/" jobTitle="Computer Engineer Student (B.A., M.A.I.)" company="Trinity College Dublin" start="September 2017" end="May 2022" />
+                    <DunnedevExperienceCell num="01/" jobTitle="Software Development Engineer" company="Amazon Web Services" start="June 2022" end="Present" startMonth={5} startYear={2022} endMonth={-1} endYear={-1}/>
+                    <DunnedevExperienceCell num="02/" jobTitle="Software Engineer Intern" company="LexisNexis Risk Solutions" start="February 2021" end="August 2021" startMonth={1} startYear={2021} endMonth={7} endYear={2021}/> 
+                    <DunnedevExperienceCell num="03/" jobTitle="Computer Engineer Student (B.A., M.A.I.)" company="Trinity College Dublin" start="September 2017" end="May 2022" startMonth={8} startYear={2017} endMonth={4} endYear={2022} />
                 </Col>
             </Row>
         </Container>
