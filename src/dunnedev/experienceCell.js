@@ -34,7 +34,7 @@ function DunnedevExperienceCell(props) {
 
 function datesAndTenure(startDate, endDate) {
     const months = monthDiff(startDate, endDate)
-    return startDate.toLocaleString('default', { month: 'long' }) + " " + startDate.getFullYear() + " - " + endDate.toLocaleString('default', { month: 'long' }) + " " + endDate.getFullYear() + " (" + Math.floor(months / 12) + " years " + (months % 12) + " months" + ")"
+    return startDate.toLocaleString('default', { month: 'long' }) + " " + startDate.getFullYear() + " - " + endDate.toLocaleString('default', { month: 'long' }) + " " + endDate.getFullYear() + " (" + getPrettyYear(months) + getPrettyMonths(months) + ")"
 }
 
 function monthDiff(d1, d2) {
@@ -43,6 +43,25 @@ function monthDiff(d1, d2) {
     months -= d1.getMonth() + 1;
     months += d2.getMonth();
     return months <= 0 ? 0 : months+2;
+}
+
+function getPrettyYear(months) {
+    var numYears = Math.floor(months / 12)
+    if (numYears === 0) {
+        return ""
+    }
+    else if (numYears === 1) {
+        return "1 year "
+    }
+    return numYears + " years "
+}
+
+function getPrettyMonths(months) {
+    var numMonths = months % 12
+    if (numMonths === 1) {
+        return "1 month"
+    }
+    return numMonths + " months"
 }
 
 export default DunnedevExperienceCell;
