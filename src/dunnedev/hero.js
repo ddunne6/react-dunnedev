@@ -8,7 +8,7 @@ import '../styles/hero.scss'
 
 let mySummary = `Software Engineer with a passion for coding, designing and developing complicated distributed systems. 
 Having recently graduated with a distinction for my master's degree in Computer Engineering at Trinity College Dublin, 
-I now work at Amazon Web Services (AWS) in the CloudWatch Metrics department. 
+I now work at Stripe in the EMEA Wallets department. 
 My areas of interest include: Distributed Systems, Machine Translation Evaluation, Geospatial Data, Machine Learning and Internet Applications.`
 
 function DunnedevHero() {
