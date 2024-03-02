@@ -33,16 +33,24 @@ function DunnedevExperienceCell(props) {
 }
 
 function datesAndTenure(startDate, endDate) {
-    const months = monthDiff(startDate, endDate)
-    return startDate.toLocaleString('default', { month: 'long' }) + " " + startDate.getFullYear() + " - " + endDate.toLocaleString('default', { month: 'long' }) + " " + endDate.getFullYear() + " (" + getPrettyYear(months) + getPrettyMonths(months) + ")"
+    const months = monthDiff(startDate, endDate) + 1
+    const today = new Date()
+    var endDateString;
+    if (today.getDate() === endDate.getDate() && today.getFullYear() === endDate.getFullYear()) {
+        endDateString = "Present" 
+    } else {
+        endDateString = endDate.toLocaleString('default', { month: 'long' }) + " " + endDate.getFullYear()
+    }
+    
+    return startDate.toLocaleString('default', { month: 'long' }) + " " + startDate.getFullYear() + " - " + endDateString + " (" + getPrettyYear(months) + getPrettyMonths(months) + ")"
 }
 
 function monthDiff(d1, d2) {
-    var months;
-    months = (d2.getFullYear() - d1.getFullYear()) * 12;
-    months -= d1.getMonth() + 1;
-    months += d2.getMonth();
-    return months <= 0 ? 0 : months+2;
+    return (
+        d2.getMonth() -
+        d1.getMonth() +
+        12 * (d2.getFullYear() - d1.getFullYear())
+      );
 }
 
 function getPrettyYear(months) {
