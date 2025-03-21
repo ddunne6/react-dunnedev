@@ -18,26 +18,26 @@ function DunnedevSkills() {
                     </Col>
                     <Col>
                         <div style={{ textAlign: "center" }}>
-                            <Icon.Chat size={60} />
-                            <h5>Machine Translation Evaluation</h5>
-                        </div>
-                    </Col>
-                    <Col>
-                        <div style={{ textAlign: "center" }}>
-                            <Icon.Map size={60} />
-                            <h5>Geospatial Data</h5>
-                        </div>
-                    </Col>
-                    <Col>
-                        <div style={{ textAlign: "center" }}>
                             <Icon.Robot size={60} />
                             <h5>Machine Learning</h5>
                         </div>
                     </Col>
                     <Col>
                         <div style={{ textAlign: "center" }}>
-                            <Icon.Clouds size={60} />
-                            <h5>Internet Applications</h5>
+                            <Icon.CashStack size={60} />
+                            <h5>Payment Processing</h5>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div style={{ textAlign: "center" }}>
+                            <Icon.Search size={60} />
+                            <h5>Monitoring</h5>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div style={{ textAlign: "center" }}>
+                            <Icon.Chat size={60} />
+                            <h5>Machine Translation Evaluation</h5>
                         </div>
                     </Col>
                 </Row>

@@ -10,8 +10,8 @@ As part of my Master's degree, I wrote a dissertation on the topic of Machine Tr
 `
 
 let myExperience = `
-During my time at university, I completed a Software Engineering internship at LexisNexis Risk Solutions.
-I now work at Stripe in the EMEA Wallets department.
+Following my studies, I joined Amazon Web Services as a Software Engineer on the CloudWatch team, gaining extensive experience in monitoring, operational excellence, and architecting solutions to handle high transaction volumes.
+At Stripe, my focus is on the iDEAL and PayPal integrations, which generate significant payment volume.
 `
 
 function DunnedevExperience() {

@@ -11,9 +11,6 @@ function DunnedevAboutMe() {
         <div className="aboutMeFrame">
             <Container id='about' className="aboutMeContent">
                 <Row>
-                    {/* <Col md lg={3}>
-                        <img src='/david_bristol.jpg' className='Profile' alt='' />
-                    </Col> */}
                     <Col md lg={8}>
                         <h1>About Me</h1>
                         <p>
@@ -24,7 +21,7 @@ function DunnedevAboutMe() {
                         <div>
                             <Button variant="outline-info" href="mailto:david@dunnedev.ie" style={{ marginRight: "1em" }}>Contact Me</Button>{' '}
                             <a href="https://www.linkedin.com/in/david-dunne-b02642195/"><Icon.Linkedin className='Socials' size={25} /></a>
-                            <a href="https://www.instagram.com/dunned922/?hl=en"><Icon.Instagram className='Socials' size={25} /></a>
+                            <a href="https://www.instagram.com/dunnedev"><Icon.Instagram className='Socials' size={25} /></a>
                             <a href="https://github.com/ddunne6"><Icon.Github className='Socials' size={25} /></a>
                         </div>
                     </Col>
