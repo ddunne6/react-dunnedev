@@ -19,10 +19,10 @@ function DunnedevAboutMe() {
                         <p>
                             Here are some of my socials if you want to reach out to me. You can also email me directly.</p>
                         <p>
-                            Email: <a href="mailto:ddunne6@tcd.ie"><u>ddunne6@tcd.ie</u></a>
+                            Email: <a href="mailto:david@dunnedev.ie"><u>david@dunnedev.ie</u></a>
                         </p>
                         <div>
-                            <Button variant="outline-info" href="mailto:ddunne6@tcd.ie" style={{ marginRight: "1em" }}>Contact Me</Button>{' '}
+                            <Button variant="outline-info" href="mailto:david@dunnedev.ie" style={{ marginRight: "1em" }}>Contact Me</Button>{' '}
                             <a href="https://www.linkedin.com/in/david-dunne-b02642195/"><Icon.Linkedin className='Socials' size={25} /></a>
                             <a href="https://www.instagram.com/dunned922/?hl=en"><Icon.Instagram className='Socials' size={25} /></a>
                             <a href="https://github.com/ddunne6"><Icon.Github className='Socials' size={25} /></a>
